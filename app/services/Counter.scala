@@ -19,7 +19,8 @@ trait Counter {
  *
  * This class has a `Singleton` annotation because we need to make
  * sure we only use one counter per application. Without this
- * annotation we would get a new instance every time a [[Counter]] is
+ * annotation we would get a new instance ev
+  * ery time a [[Counter]] is
  * injected.
  */
 @Singleton
