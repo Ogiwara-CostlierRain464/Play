@@ -2,7 +2,7 @@ name := "PlayTest"
  
 version := "1.0" 
       
-lazy val `playtest` = (project in file(".")).enablePlugins(PlayScala)
+lazy val `playtest` = (project in file(".")).enablePlugins(PlayScala, PlayEbean)
 
 resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
       
